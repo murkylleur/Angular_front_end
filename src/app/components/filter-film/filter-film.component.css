@@ -46,6 +46,7 @@ nav a{
   color:white;
   border-bottom: 2px solid transparent;
   padding: 10px 0px;
+  width: 100%;
 }
 
 nav a:hover{
@@ -60,6 +61,7 @@ nav a:hover{
   width: 100%;
   z-index: 1000;
 }
+
 nav > ul li:hover .sous{
   display: flex;
   flex-direction: column;
@@ -67,7 +69,6 @@ nav > ul li:hover .sous{
 .sous li{
   float: none;
   width: 100%;
-  text-align: left;
   font-size:  15px;
   line-height: 14px;
   padding-bottom: 6px;
@@ -75,6 +76,7 @@ nav > ul li:hover .sous{
   padding-left: 0;
 }
 .sous a{
+  width: 380%;
   padding: 10px;
   border-bottom: none;
 }

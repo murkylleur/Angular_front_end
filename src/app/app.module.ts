@@ -7,6 +7,7 @@ import { FilterFilmComponent } from './components/filter-film/filter-film.compon
 import { FilmListComponent } from './components/film-list/film-list.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

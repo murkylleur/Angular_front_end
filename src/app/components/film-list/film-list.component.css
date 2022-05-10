@@ -8,23 +8,42 @@
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .list_movies li{
 
-  width: 20%;
+  width:23%;
 }
 
 .movie{
   width: 90%;
   border: solid 2px rgb(45, 136, 251) ;
-  height: 500px;
-  border-radius:  50px;
+  height: 95%;
   margin-top: 10px;
 }
 
 .movie:hover{
-  transform: translateY(-6px);
 
+  transform: translateY(-6px);
   box-shadow: 0 4px 17px rgba(45, 136, 251, 0.75);
 }
+
+.movies_page{
+
+padding: 20px;
+}
+
+.movie_picture{
+
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.movie_picture img{
+
+  width: 100%;
+  height: auto;
+}
+
