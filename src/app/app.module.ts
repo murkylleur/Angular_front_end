@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FilterFilmComponent } from './components/filter-film/filter-film.component';
+import { FilmListComponent } from './components/film-list/film-list.component';
+import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
-import { FilterComponent } from './components/filter/filter.component';
-import { FilmlistComponent } from './components/film-list/film-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    FilterComponent,
-    FilmlistComponent
+    FilterFilmComponent,
+    FilmListComponent,
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
