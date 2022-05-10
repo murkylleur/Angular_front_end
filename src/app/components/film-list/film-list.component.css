@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.list_movies{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_movies li{
+
+  width: 20%;
+}
+
+.movie{
+  width: 90%;
+  border: solid 2px rgb(45, 136, 251) ;
+  height: 500px;
+  border-radius:  50px;
+  margin-top: 10px;
+}
+
+.movie:hover{
+  transform: translateY(-6px);
+
+  box-shadow: 0 4px 17px rgba(45, 136, 251, 0.75);
+}
